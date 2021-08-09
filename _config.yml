@@ -1,0 +1,9 @@
+title: "hyunwoo"
+baseurl: ""
+url: "https://hyunwoo6321.github.io/"
+github_username: hyunwoo6321
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-include-cache
+  - ekyll-gist
