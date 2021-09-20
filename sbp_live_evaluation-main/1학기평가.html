@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>1학기 평가</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="mode_changing.js"></script>
+  <script src="jquery.js"></script>
+  <script src="mobile.js"></script>
+  <script src="dday.js"></script>
+</head>
+
+<body>
+<div>
+  <h1 id="BTitle"><a class="Link" href="index.html">신반포 평가 안내</a>&nbsp;&nbsp;<input id="night_day" type="button" value="🌙 다크 모드" onclick="nightDayHandler(this);"> <span id="dday" style=";"></span> </h1>
+  <div id="grid">
+  <div>
+    <h2 class="LTitle" id="LTitle1">1. 전체 평가 항목</h2>
+    <ul class="Sidebar" id="Sidebar1">
+      <li class="List"><a class="Link" id="Evaluate1" href=1%ED%95%99%EA%B8%B0%ED%8F%89%EA%B0%80.html>1학기</a></li>
+      &nbsp;
+      <li class="List"><a class="Link" id="Evaluate2" href="2%ED%95%99%EA%B8%B0%ED%8F%89%EA%B0%80.html">2학기</a></li>
+    </ul>
+    <h2 class="LTitle" id="LTitle2">2. 지필 고사</h2>
+    <ul class="Sidebar" id="Sidebar2">
+      <li class="List"><a class="Link" id="Test1M" href="1%ED%95%99%EA%B8%B0%EC%A4%91%EA%B0%84%EA%B3%A0%EC%82%AC.html">1학기 중간고사</a></li>
+      &nbsp;
+      <li class="List"><a class="Link" id="Test1E" href="1%ED%95%99%EA%B8%B0%EA%B8%B0%EB%A7%90%EA%B3%A0%EC%82%AC.html">1학기 기말고사</a></li>
+      &nbsp;
+      <li class="List"><a class="Link" id="Test2M" href="2%ED%95%99%EA%B8%B0%EC%A4%91%EA%B0%84%EA%B3%A0%EC%82%AC.html">2학기 중간고사</a></li>
+      &nbsp;
+      <li class="List"><a class="Link" id="Test2E" href="2%ED%95%99%EA%B8%B0%EA%B8%B0%EB%A7%90%EA%B3%A0%EC%82%AC.html">2학기 기말고사</a></li>
+      &nbsp;
+      <li class="List"><a class="Link" id="PastTest" href="%EA%B8%B0%EC%B6%9C%EB%AC%B8%EC%A0%9C.html">기출 문제</a></li>
+    </ul>
+    <h2 class="LTitle" id="LTitle3">3. 온라인 교과서 ebook</h2>
+    <ul class="Sidebar" id="Sidebar3">
+      <li class="List"><a class="Link" id="Ebook" href="online_textbook_ebook.html">바로가기</a></li>
+    </ul>
+  </div>
+    <div>
+      <h2 id="LTitle">1학기 평가 항목 - <a class="Link" href="./%ED%8F%89%EA%B0%80%20%EC%95%88%EB%82%B4%20%EC%9E%90%EB%A3%8C/2021%ED%95%99%EB%85%84%EB%8F%84%203%ED%95%99%EB%85%84%20%EA%B5%90%EA%B3%BC%EB%B3%84%20%ED%8F%89%EA%B0%80%20%EA%B3%84%ED%9A%8D%20%EC%9E%AC%EC%95%88%EB%82%B4.pdf">원본 가정통신문</a></h2><h3 id="내일-예정된-수행평가">내일 예정된 수행평가</h3>
+없음
+<h3 id="현재-공지된-수행평가">현재 공지된 수행평가</h3>
+없음
+<h3 id="평가-진행-상황">평가 진행 상황</h3>
+<ul>
+<li>
+  <h4>국어</h4>
+<ul>
+<li>
+  <h4>수행평가</h4>
+1. 시 창작하기(7%) - ✅<br><br>
+
+2. 국어 A 포트폴리오(3%) - ✅<br><br>
+
+3. 주장하는 글 쓰기(10%) - ✅
+</li>
+<li>
+  <h4>지필평가</h4>
+1. 중간(선택형 30%) - ✅<br><br>
+
+2. 기말(선택형 40%, 서술형 10%) - ✅
+</li>
+</ul>
+</li>
+<li>
+  <h4>수학</h4>
+<ul>
+<li>
+  <h4>수행평가</h4>
+1. 포트폴리오(5%) - 1, 2, 3, 4차 ✅<br><br>
+
+2. 서논술형(15%) - 1, 2, 3차 ✅
+</li>
+<li>
+  <h4>지필평가</h4>
+1. 중간(선택형 40%) - ✅<br><br>
+
+2. 기말(선택형 40%) - ✅
+</li>
+</ul>
+</li>
+<li>
+  <h4>영어</h4>
+<ul>
+<li>
+  <h4>수행평가</h4>
+1. 듣기(10%) - ✅<br><br>
+
+2. 말하기(15%) - ✅<br><br>
+
+3. 쓰기(서논술형)(15%) - ✅<br><br>
+
+4. 포트폴리오(10%) - 1, 2차 ✅
+</li>
+<li>
+  <h4>지필평가</h4>
+1. 중간(선택형 25%) - ✅<br><br>
+
+2. 기말(선택형 25%) - ✅
+</li>
+</ul>
+</li>
+<li>
+  <h4>과학</h4>
+<ul>
+<li>
+  <h4>수행평가</h4>
+1. 실험평가1(대기중의 수증기)(10%) - ✅<br><br>
+
+2. 실험평가2(등속운동)(10%) - ✅
+</li>
+<li>
+  <h4>지필평가</h4>
+1. 중간(선택형 30%, 서술형 10%) - ✅<br><br>
+
+2. 기말(선택형 40%) - ✅
+</li>
+</ul>
+</li>
+<li>
+  <h4>사회</h4>
+<ul>
+<li>
+  <h4>수행평가</h4>
+1. 포트폴리오(10%) - ✅<br><br>
+
+2. 인권단체 만들기(10%) - ✅<br><br>
+
+3. 서논술형(10%) - ✅
+</li>
+<li>
+  <h4>지필평가</h4>
+1. 기말(선택형 70%) - ✅
+</li>
+</ul>
+</li>
+<li>
+  <h4>역사</h4>
+<ul>
+<li>
+  <h4>수행평가</h4>
+1. 서·논술형(10%) - ✅<br><br>
+
+2. 인물 탐구(10%) - ✅<br><br>
+
+3. 포트폴리오(10%) - 1, 2차 ✅
+</li>
+<li>
+  <h4>지필평가</h4>
+1. 기말(선택형 70%) - ✅
+</li>
+</ul>
+</li>
+<li>
+  <h4>기술</h4>
+<ul>
+<li>
+  <h4>수행평가</h4>
+1. 서·논술형(10%) - ✅<br><br>
+
+2. 친환경 자동차 제작하기(10%) - ✅
+</li>
+<li>
+  <h4>지필평가</h4>
+1. 중간(선택형 15%) - ✅<br><br>
+
+2. 기말(선택형 15%) - ✅
+</li>
+</ul>
+</li>
+<li>
+  <h4>가정</h4>
+<ul>
+<li>
+  <h4>수행평가</h4>
+1. 가정폭력예방 캘리그라피(14%) - ✅<br><br>
+
+2. 포트폴리오(6%) - ✅
+</li>
+<li>
+  <h4>지필평가</h4>
+1. 중간(선택형 15%) - ✅<br><br>
+
+2. 기말(선택형 15%) - ✅
+</li>
+</ul>
+</li>
+<li>
+  <h4>중국어</h4>
+<ul>
+<li>
+  <h4>수행평가</h4>
+1. 말하기(20%) - ✅<br><br>
+
+2. 포트폴리오(20%) - ✅
+</li>
+<li>
+  <h4>지필평가</h4>
+1. 기말(선택형 48%, 서술형 12%) - ✅
+</li>
+</ul>
+</li>
+<li>
+  <h4>체육</h4>
+<ul>
+<li>
+  <h4>수행평가</h4>
+1. 청소년체조(20%) - ✅<br><br>
+
+2. 응급처치(20%) - ✅<br><br>
+
+3. 농구(30%) - ✅<br><br>
+
+4. 건강일지보고서(20%) - ✅<br><br>
+
+5. 경기수행역량(10%) - ✅
+</li>
+</ul>
+</li>
+</ul>
+    </div>
+    </div>
+</div>
+</body>
+
+</html>
