@@ -9,6 +9,7 @@ var Links = {
         $('a').css('color', color);
     }
 }
+
 var Body = {
     setColor:function (color){
         //document.querySelector('body').style.color = color;
