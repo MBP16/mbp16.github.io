@@ -46,7 +46,14 @@ body {
     font-size: 18px;
 }
 @media (max-width: 800px) {
-    
+    #grid_index {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    #grid {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
 }
 @media (prefers-color-scheme: dark){
     body{
